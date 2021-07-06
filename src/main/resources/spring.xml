@@ -29,7 +29,7 @@
         <!-- 配置别名 -->
         <property name="typeAliasesPackage" value="com.murphy.pojo"/>
         <!-- 配置映射文件 -->
-<!--        <property name="mapperLocations" value="com/murphy/mapper/*.xml"/>-->
+        <property name="mapperLocations" value="classpath:com/murphy/mapper/*.xml"/>
         <!-- 配置插件 -->
         <property name="plugins">
             <array>
@@ -45,7 +45,7 @@
         </property>
     </bean>
     <!-- 接口产生动态代理类 -->
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.murphy.mapper"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
