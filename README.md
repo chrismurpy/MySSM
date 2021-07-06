@@ -5,25 +5,25 @@
 1. 新建Maven项目
 2. 在`Project Structure`中的`Modules`中引入`Web`
 
-<img src="/Users/murphy/Desktop/Typora/Pic/1.引入Module.png" style="zoom: 33%;" />
+![1](https://github.com/chrismurpy/MySSM/blob/master/Pic/1.%E5%BC%95%E5%85%A5Module.png)
 
 3. 修改`Web Resource Directories`以及`Deployment Descriptors Path`
 
    1. 编辑`Path Relative to Deployment Root`，新建`webapp`目录，设置`Path`如下即可。`src/main/webapp`
 
-      <img src="/Users/murphy/Desktop/Typora/Pic/2.Web Resource Directory-5553194.png" style="zoom:50%;" />
+      ![2](https://github.com/chrismurpy/MySSM/blob/master/Pic/2.Web%20Resource%20Directory.png)
 
    2. 编辑`Deployment Descriptors`中的`Path`，将`Location`修改为下图所示路径，即将`WEB-INF`目录置于`webapp`下。
 
-      <img src="/Users/murphy/Desktop/Typora/Pic/3.Deployment Descriptors.png" style="zoom:50%;" />
+      ![3](https://github.com/chrismurpy/MySSM/blob/master/Pic/3.Deployment%20Descriptors.png)
 
 4. 引入`Modules`，如下图所示。
 
-   <img src="/Users/murphy/Desktop/Typora/Pic/4.Artifacts.png" style="zoom:50%;" />
+   ![4](https://github.com/chrismurpy/MySSM/blob/master/Pic/4.Artifacts.png)
 
 5. 至此，Maven项目搭建完毕，项目框架如下图所示。
 
-<img src="/Users/murphy/Desktop/Typora/Pic/5.Maven搭建.png" style="zoom:50%;" />
+![5](https://github.com/chrismurpy/MySSM/blob/master/Pic/5.Maven%E6%90%AD%E5%BB%BA.png)
 
 ### 1.2 pom.xml引入jar依赖
 
@@ -446,7 +446,7 @@ jdbc.password=xmf199315
 
 - 至此，SSM整合完毕，项目结构如图所示：
 
-<img src="/Users/murphy/Desktop/Typora/Pic/6.SSM搭建.png" style="zoom:50%;" />
+![6](https://github.com/chrismurpy/MySSM/blob/master/Pic/6.SSM%E6%90%AD%E5%BB%BA.png)
 
 ------
 
